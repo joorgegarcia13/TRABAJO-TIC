@@ -1,0 +1,47 @@
+*{
+    font-family:"quicksand";
+    text-align:center;
+    text-decoration:none
+    
+  }
+  body{
+    background-color:#e4e4e4
+  }
+  ul{
+    list-style-type:none
+  }
+  .A{
+    width: 200px;
+    margin-top:5px;
+   background-color:transparent;
+    border:2px solid ;
+    padding:5.5px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: ease .3s;
+   
+  }
+  .A:hover{
+    background-color:grey;
+    color:white;
+    transition: ease .3s;
+    
+  }
+  a{
+    color:black
+  }
+  .A:hover a{
+    color:white
+  }
+  .img{
+    width:400px;
+    position: relative;
+  
+    transform:translateX(22.5PX)
+  }
+  .img1{
+    width:180px;
+    position: relative;
+  
+    transform:translateX(22.5PX)
+  }
